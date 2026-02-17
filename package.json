@@ -1,0 +1,39 @@
+{
+  "name": "progettofinale",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run build && jasmine",
+    "build": "npx tsc",
+    "lint": "eslint \"src/**/*.ts\"",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/jasmine": "^6.0.0",
+    "@types/node": "^25.2.3",
+    "@types/supertest": "^6.0.3",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "globals": "^17.3.0",
+    "prettier": "^2.5.1",
+    "supertest": "^7.2.2",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.55.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "jasmine": "^6.0.0",
+    "jasmine-spec-reporter": "^7.0.0",
+    "sharp": "^0.34.5"
+  }
+}
